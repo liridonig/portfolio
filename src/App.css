@@ -1,0 +1,35 @@
+.container {
+  max-width: 1550px;
+  margin: auto;
+}
+
+.container-app {
+  position: relative;
+}
+
+.btn-info-title {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 35px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 16px;
+}
+.btn-info-title svg {
+  margin-right: 5px;
+}
+
+.btn-info-subtitle {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  margin: 20px 0;
+}
+.btn-info-subtitle span {
+  color: var(--primary_color);
+}
+.container-app-right {
+  padding-left: 450px;
+}

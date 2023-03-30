@@ -1,0 +1,25 @@
+.skills {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(4, 25%);
+}
+.skills-box {
+  margin: 15px 5px;
+}
+.skills-box-icon {
+  padding: 50px 0;
+  border: 2px solid #999999;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.skills-box svg {
+  font-size: 80px;
+  color: #fff;
+}
+
+.skills-box p {
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+}
