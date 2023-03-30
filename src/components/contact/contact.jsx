@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">
-            <RiContactsFill></RiContactsFill> Contact
+            <RiContactsFill></RiContactsFill> Contact1
           </h4>
           <h3 className="btn-info-subtitle">
             Let's Work <span>Together!</span>
