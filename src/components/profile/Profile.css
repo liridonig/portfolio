@@ -82,6 +82,12 @@
   max-width: 200px;
   justify-content: center;
   margin: auto;
+  transition: all 0.4s;
+  border: 2px solid var(--primary_color);
+}
+.donwload-cv a:hover {
+  color: var(--primary_color);
+  background-color: transparent;
 }
 .donwload-cv svg {
   margin-right: 5px;

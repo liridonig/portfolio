@@ -1,5 +1,5 @@
 import React from "react";
-import "../profile/Profile.css";
+import "./Profile.css";
 import Me from "../../assets/me.jpeg";
 import {
   FaLinkedinIn,

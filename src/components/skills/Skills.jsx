@@ -9,7 +9,7 @@ import {
   FaBootstrap,
 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
-import "../skills/Skills.css";
+import "./Skills.css";
 
 const Skills = () => {
   return (
