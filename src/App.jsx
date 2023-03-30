@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Contact from "./components/contact/contact";
-import About from "./components/about/about";
+import Contact from "./components/contact/Contact";
+import About from "./components/about/About";
 import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/profile/Profile";
 import Skills from "./components/skills/Skills";
