@@ -30,9 +30,9 @@
   color: #999;
 }
 
-.contact-btn a {
+.contact-btn button {
   background-color: var(--primary_color);
-  padding: 10px;
+  padding: 10px 35px;
   border-radius: 30px;
   text-decoration: none;
   color: #fff;
@@ -45,7 +45,17 @@
   border: 2px solid var(--primary_color);
 }
 
-.contact-btn a:hover {
+.contact-btn button:hover {
   color: var(--primary_color);
   background-color: transparent;
+}
+
+.contact-inputs span {
+  color: red;
+  font-size: 12px;
+}
+.success {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
 }

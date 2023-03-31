@@ -7,6 +7,7 @@ import {
   FaHtml5,
   FaCss3,
   FaBootstrap,
+  FaSass,
 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import "./Skills.css";
@@ -48,6 +49,12 @@ const Skills = () => {
             <FaHtml5></FaHtml5>
           </div>
           <p>HTML</p>
+        </div>
+        <div className="skills-box">
+          <div className="skills-box-icon">
+            <FaSass></FaSass>
+          </div>
+          <p>Sass</p>
         </div>
         <div className="skills-box">
           <div className="skills-box-icon">
