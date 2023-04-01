@@ -17,6 +17,10 @@
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: #999;
+  transition: all 0.4s;
+}
+.contact-input:focus {
+  border-color: var(--primary_color);
 }
 
 .contact-textarea {
@@ -28,6 +32,9 @@
   width: 100%;
   font-family: "Poppins", sans-serif;
   color: #999;
+}
+.contact-textarea:focus {
+  border-color: var(--primary_color);
 }
 
 .contact-btn button {

@@ -16,10 +16,18 @@
 .skills-box svg {
   font-size: 80px;
   color: #fff;
+  transition: all 0.4s;
 }
-
+.skills-box-icon:hover svg {
+  color: var(--primary_color);
+  transform: scale(1.1);
+}
 .skills-box p {
   color: #fff;
   text-align: center;
   margin-top: 5px;
+  transition: all 0.4s;
+}
+.skills-box:hover p {
+  color: var(--primary_color);
 }
