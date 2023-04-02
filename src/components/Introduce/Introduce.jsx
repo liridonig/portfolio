@@ -1,18 +1,17 @@
 import React from "react";
-import "./About.css";
-import { FaUser } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import "./Introduce.css";
 
-const About = () => {
+const Introduce = () => {
   return (
     <>
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">
-            <FaUser></FaUser> ABOUT
+            <FaHome></FaHome> INTRODUCE
           </h4>
-          <h3 className="btn-info-subtitle">
-            Every great design begin with an even
-            <span> better story</span>
+          <h3 className="btn-info-subtitle btn-info-subtitle-intro">
+            Hi, I’m <span>Liridon Gashi</span> a Front End Developer.
           </h3>
           <p>
             Since beginning my journey as a freelance designer nearly 8 years
@@ -24,8 +23,14 @@ const About = () => {
           </p>
         </div>
       </div>
+      <div className="introduce">
+        <div className="introduce-box">
+          <h4>3+</h4>
+          <p>YEARS OF EXPERIENCE</p>
+        </div>
+      </div>
     </>
   );
 };
 
-export default About;
+export default Introduce;

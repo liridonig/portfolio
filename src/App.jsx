@@ -6,6 +6,8 @@ import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/profile/Profile";
 import Skills from "./components/skills/Skills";
 import Resume from "./components/resume/Resume";
+import Footer from "./components/Footer/Footer";
+import Introduce from "./components/Introduce/Introduce";
 
 function App() {
   return (
@@ -14,7 +16,14 @@ function App() {
       <div className="container-app">
         <Profile></Profile>
         <div className="container-app-right">
+          <Introduce></Introduce>
+          <About></About>
+          <Resume></Resume>
+          <Skills></Skills>
+          <Contact></Contact>
+          <Footer></Footer>
           <Routes>
+            <Route path="/Introduce" element={<Introduce></Introduce>}></Route>
             <Route path="/About" element={<About></About>}></Route>
             <Route path="/Resume" element={<Resume></Resume>}></Route>
             <Route path="/Skills" element={<Skills></Skills>}></Route>

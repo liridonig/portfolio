@@ -1,0 +1,17 @@
+.btn-info-subtitle-intro {
+  font-size: 70px;
+  padding-right: 150px;
+  line-height: 1.1;
+}
+.introduce-box {
+  margin-top: 50px;
+}
+.introduce-box h4 {
+  color: var(--primary_color);
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.introduce-box p {
+  color: #999;
+}
