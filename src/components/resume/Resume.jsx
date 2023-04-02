@@ -10,7 +10,6 @@ const Resume = () => {
       source: "Karrota",
       dateStart: "01/10/2019",
       dateEnd: `30/09/2022`,
-      icon: "<FaBriefcase/>",
     },
     {
       id: 2,
