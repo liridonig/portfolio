@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "../navbar/Navbar.css";
 import { FaHome, FaUser, FaBriefcase, FaShapes } from "react-icons/fa";
 import { RiContactsFill } from "react-icons/ri";
@@ -9,31 +9,66 @@ const Navbar = () => {
     <div className="navbar">
       <ul>
         <li>
-          <Link to="/">
+          <Link
+            activeClass="active"
+            to="introduce"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
             <FaHome></FaHome>
             <span className="navbar-icon">Introduce</span>
           </Link>
         </li>
         <li>
-          <Link to="/About">
+          <Link
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
             <FaUser></FaUser>
             <span className="navbar-icon">About Me</span>
           </Link>
         </li>
         <li>
-          <Link to="/Resume">
+          <Link
+            to="resume"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
             <FaBriefcase></FaBriefcase>
             <span className="navbar-icon">Resume</span>
           </Link>
         </li>
         <li>
-          <Link to="/Skills">
+          <Link
+            to="skills"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
             <FaShapes></FaShapes>
             <span className="navbar-icon">My Skills</span>
           </Link>
         </li>
         <li>
-          <Link to="/Contact">
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
             <RiContactsFill></RiContactsFill>
             <span className="navbar-icon">Contact</span>
           </Link>

@@ -1,5 +1,5 @@
 .contact-form {
-  max-width: 620px;
+  max-width: 100%;
 }
 
 .contact-inputs label {
@@ -65,4 +65,8 @@
   color: green;
   font-weight: bold;
   margin-top: 20px;
+}
+
+#contact {
+  padding-bottom: 100px;
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
 import "./Introduce.css";
+import { Link } from "react-scroll";
 
 const Introduce = () => {
   return (
-    <>
+    <section id="introduce">
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">
@@ -29,7 +30,7 @@ const Introduce = () => {
           <p>YEARS OF EXPERIENCE</p>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

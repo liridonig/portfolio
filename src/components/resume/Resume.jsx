@@ -30,7 +30,7 @@ const Resume = () => {
   ];
 
   return (
-    <>
+    <section id="resume">
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">
@@ -54,7 +54,7 @@ const Resume = () => {
           );
         })}
       </div>
-    </>
+    </section>
   );
 };
 

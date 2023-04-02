@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import Navbar from "./components/navbar/Navbar";
@@ -22,13 +22,13 @@ function App() {
           <Skills></Skills>
           <Contact></Contact>
           <Footer></Footer>
-          <Routes>
+          {/* <Routes>
             <Route path="/Introduce" element={<Introduce></Introduce>}></Route>
             <Route path="/About" element={<About></About>}></Route>
             <Route path="/Resume" element={<Resume></Resume>}></Route>
             <Route path="/Skills" element={<Skills></Skills>}></Route>
             <Route path="/Contact" element={<Contact></Contact>}></Route>
-          </Routes>
+          </Routes> */}
         </div>
       </div>
     </div>

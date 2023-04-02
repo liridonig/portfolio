@@ -4,7 +4,7 @@ import { FaUser } from "react-icons/fa";
 
 const About = () => {
   return (
-    <>
+    <section id="about">
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">
@@ -24,7 +24,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

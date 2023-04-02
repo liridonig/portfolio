@@ -14,7 +14,7 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <>
+    <section id="skills">
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">
@@ -75,7 +75,7 @@ const Skills = () => {
           <p>Tailwind</p>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

@@ -48,7 +48,7 @@ const Contact = () => {
   };
 
   return (
-    <>
+    <section id="contact">
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">
@@ -128,7 +128,7 @@ const Contact = () => {
           <p className="success"></p>
         </form>
       </div>
-    </>
+    </section>
   );
 };
 
