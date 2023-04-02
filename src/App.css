@@ -28,6 +28,7 @@
   font-size: 50px;
   font-weight: 300;
   margin: 20px 0;
+  line-height: 1.2;
 }
 .btn-info-subtitle span {
   color: var(--primary_color);
@@ -38,4 +39,30 @@
 }
 .btn-info p {
   color: #999;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    max-width: 750px;
+  }
+  .container-app-right {
+    padding-left: 15px;
+    padding-right: 120px;
+  }
+  .btn-info-subtitle {
+    font-size: 30px;
+  }
+  .btn-header {
+    padding-top: 100px;
+  }
+  .btn-info-title {
+    font-size: 14px;
+    padding: 6px 30px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .container-app-right {
+    padding-right: 15px;
+  }
 }

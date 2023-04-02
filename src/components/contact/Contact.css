@@ -70,3 +70,9 @@
 #contact {
   padding-bottom: 100px;
 }
+
+@media only screen and (max-width: 767px) {
+  #contact {
+    padding-bottom: 0;
+  }
+}
