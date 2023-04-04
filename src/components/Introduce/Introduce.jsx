@@ -5,8 +5,8 @@ import { Link } from "react-scroll";
 
 const Introduce = () => {
   return (
-    <section id="introduce">
-      <div className="btn-header">
+    <section id="introduce" className="section">
+      <div className="btn-header ">
         <div className="btn-info">
           <h4 className="btn-info-title">
             <FaHome></FaHome> INTRODUCE

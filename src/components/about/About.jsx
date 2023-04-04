@@ -4,7 +4,7 @@ import { FaUser } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="section">
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">

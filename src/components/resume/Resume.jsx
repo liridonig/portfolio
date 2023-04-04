@@ -29,7 +29,7 @@ const Resume = () => {
   ];
 
   return (
-    <section id="resume">
+    <section id="resume" className="section">
       <div className="btn-header">
         <div className="btn-info">
           <h4 className="btn-info-title">
