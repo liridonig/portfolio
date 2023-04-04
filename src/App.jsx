@@ -9,6 +9,7 @@ import Skills from "./components/skills/Skills";
 import Resume from "./components/resume/Resume";
 import Footer from "./components/Footer/Footer";
 import Introduce from "./components/Introduce/Introduce";
+import Projects from "./components/projects/Projects";
 
 function App() {
   useEffect(() => {
@@ -16,7 +17,7 @@ function App() {
 
     const revealSection = function (entries, observer) {
       const [entry] = entries;
-      console.log(entries);
+      // console.log(entries);
 
       if (!entry.isIntersecting) return;
 
@@ -45,6 +46,7 @@ function App() {
           <About></About>
           <Resume></Resume>
           <Skills></Skills>
+          <Projects></Projects>
           <Contact></Contact>
           <Footer></Footer>
           {/* <Routes>

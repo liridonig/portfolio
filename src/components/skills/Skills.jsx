@@ -13,6 +13,48 @@ import { SiTailwindcss } from "react-icons/si";
 import "./Skills.css";
 
 const Skills = () => {
+  const skillsData = [
+    {
+      id: 1,
+      title: "React",
+      icon: <FaReact></FaReact>,
+    },
+    {
+      id: 2,
+      title: "JavaScript",
+      icon: <FaJs></FaJs>,
+    },
+    {
+      id: 3,
+      title: "Wordpress",
+      icon: <FaWordpress></FaWordpress>,
+    },
+    {
+      id: 4,
+      title: "HTML",
+      icon: <FaHtml5></FaHtml5>,
+    },
+    {
+      id: 5,
+      title: "Sass",
+      icon: <FaSass></FaSass>,
+    },
+    {
+      id: 6,
+      title: "CSS",
+      icon: <FaCss3></FaCss3>,
+    },
+    {
+      id: 7,
+      title: "Bootstrap",
+      icon: <FaBootstrap></FaBootstrap>,
+    },
+    {
+      id: 8,
+      title: "Tailwind",
+      icon: <SiTailwindcss></SiTailwindcss>,
+    },
+  ];
   return (
     <section id="skills" className="section">
       <div className="btn-header">
@@ -26,54 +68,14 @@ const Skills = () => {
         </div>
       </div>
       <div className="skills">
-        <div className="skills-box">
-          <div className="skills-box-icon">
-            <FaReact></FaReact>
-          </div>
-          <p>React</p>
-        </div>
-        <div className="skills-box">
-          <div className="skills-box-icon">
-            <FaJs></FaJs>
-          </div>
-          <p>JavaScript</p>
-        </div>
-        <div className="skills-box">
-          <div className="skills-box-icon">
-            <FaWordpress></FaWordpress>
-          </div>
-          <p>Wordpress</p>
-        </div>
-        <div className="skills-box">
-          <div className="skills-box-icon">
-            <FaHtml5></FaHtml5>
-          </div>
-          <p>HTML</p>
-        </div>
-        <div className="skills-box">
-          <div className="skills-box-icon">
-            <FaSass></FaSass>
-          </div>
-          <p>Sass</p>
-        </div>
-        <div className="skills-box">
-          <div className="skills-box-icon">
-            <FaCss3></FaCss3>
-          </div>
-          <p>CSS</p>
-        </div>
-        <div className="skills-box">
-          <div className="skills-box-icon">
-            <FaBootstrap></FaBootstrap>
-          </div>
-          <p>Bootstrap</p>
-        </div>
-        <div className="skills-box">
-          <div className="skills-box-icon">
-            <SiTailwindcss></SiTailwindcss>
-          </div>
-          <p>Tailwind</p>
-        </div>
+        {skillsData.map((e) => {
+          return (
+            <div className="skills-box" key={e.id}>
+              <div className="skills-box-icon">{e.icon}</div>
+              <p>{e.title}</p>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

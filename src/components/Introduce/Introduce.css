@@ -1,3 +1,7 @@
+.introduce {
+  position: relative;
+}
+
 .btn-info-subtitle-intro {
   font-size: 4vw;
   padding-right: 150px;
@@ -15,7 +19,38 @@
 .introduce-box p {
   color: #999;
 }
-
+.projects-intro {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.projects-intro img {
+  animation: rotate 4s infinite linear;
+  cursor: pointer;
+}
+.projects-intro a {
+  position: relative;
+}
+.projects-intro svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+#introduce p {
+  max-width: 600px;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media only screen and (max-width: 1100px) {
   .btn-info-subtitle-intro {
     font-size: 35px;
@@ -23,5 +58,8 @@
   }
   .introduce-box h4 {
     font-size: 40px;
+  }
+  .projects-intro {
+    justify-content: flex-start;
   }
 }

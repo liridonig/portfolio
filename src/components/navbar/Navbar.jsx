@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "../navbar/Navbar.css";
-import { FaHome, FaUser, FaBriefcase, FaShapes } from "react-icons/fa";
+import {
+  FaHome,
+  FaUser,
+  FaBriefcase,
+  FaShapes,
+  FaGripVertical,
+} from "react-icons/fa";
 import { RiContactsFill } from "react-icons/ri";
 
 const Navbar = () => {
@@ -58,6 +64,19 @@ const Navbar = () => {
           >
             <FaShapes></FaShapes>
             <span className="navbar-icon">My Skills</span>
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="projects"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <FaGripVertical></FaGripVertical>
+            <span className="navbar-icon">Portfolio</span>
           </Link>
         </li>
         <li>
