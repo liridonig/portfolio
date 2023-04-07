@@ -14,17 +14,25 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "Karrota",
-      url: "https://karrota.wtf/",
-      image: "/src/assets/karrota.gif",
+      title: "Hoobank",
+      url: "https://hoobankks.netlify.app/",
+      image: "https://liridongashi.com/assets/hoobank.png",
       icon: "FaGripVertical",
       buildWith: [<FaWordpress />, <FaJs />, <FaHtml5 />, <FaCss3 />],
     },
     {
       id: 2,
+      title: "Karrota",
+      url: "https://karrota.wtf/",
+      image: "https://liridongashi.com/assets/karrota.png",
+      icon: "FaGripVertical",
+      buildWith: [<FaWordpress />, <FaJs />, <FaHtml5 />, <FaCss3 />],
+    },
+    {
+      id: 3,
       title: "Convosio",
       url: "https://convosio.com/",
-      image: "/src/assets/convosio.svg",
+      image: "https://liridongashi.com/assets/convosio.png",
       buildWith: [<FaJs />, <FaHtml5 />, <FaCss3 />, <FaBootstrap />],
     },
   ];
