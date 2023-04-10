@@ -12,7 +12,7 @@ import CV from "../../assets/cv.pdf";
 
 const Profile = () => {
   return (
-    <div className="profile">
+    <div className="profile standby fadeIn">
       <div className="profile-pic">
         <img src={Me}></img>
       </div>

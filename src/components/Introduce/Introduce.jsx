@@ -9,13 +9,13 @@ const Introduce = () => {
     <section id="introduce" className="section">
       <div className="btn-header ">
         <div className="btn-info">
-          <h4 className="btn-info-title fadeIn">
+          <h4 className="btn-info-title standby">
             <FaHome></FaHome> INTRODUCE
           </h4>
-          <h1 className="fadeIn btn-info-subtitle btn-info-subtitle-intro">
+          <h1 className="standby btn-info-subtitle btn-info-subtitle-intro">
             Hi, I’m <span>Liridon Gashi</span> a Front End Developer.
           </h1>
-          <p>
+          <p className="standby">
             I'm a web developer with over three years of expertise in developing
             and maintaining websites and web applications.
           </p>
@@ -23,7 +23,7 @@ const Introduce = () => {
       </div>
       <div className="introduce">
         <div className="introduce-box">
-          <div className="projects-intro">
+          <div className="projects-intro standby">
             <Link
               to="projects"
               activeClass="active"
@@ -36,8 +36,8 @@ const Introduce = () => {
               <FaArrowDown></FaArrowDown>
             </Link>
           </div>
-          <h4 className="fadeIn">3+</h4>
-          <p className="fadeIn">YEARS OF EXPERIENCE</p>
+          <h4 className="standby">3+</h4>
+          <p className="standby">YEARS OF EXPERIENCE</p>
         </div>
       </div>
     </section>

@@ -13,27 +13,24 @@ import Projects from "./components/projects/Projects";
 
 function App() {
   useEffect(() => {
-    const allSections = document.querySelectorAll(".section");
+    const boxes = document.querySelectorAll(".standby");
 
-    const revealSection = function (entries, observer) {
-      const [entry] = entries;
-      // console.log(entries);
+    function fadeOnScroll() {
+      const trigerBottom = (window.innerHeight / 5) * 4;
+      boxes.forEach((box) => {
+        const boxTop = box.getBoundingClientRect().top;
+        if (boxTop < trigerBottom) {
+          box.classList.add("fadein");
+          // console.log(box);
+          console.count(box);
+        } else {
+          box.classList.remove("fadein");
+        }
+      });
+    }
 
-      if (!entry.isIntersecting) return;
-
-      entry.target.classList.add("section--add");
-      observer.unobserve(entry.target);
-    };
-
-    const sectionObserver = new IntersectionObserver(revealSection, {
-      root: null,
-      threshold: [0, 0.2],
-    });
-
-    allSections.forEach(function (section) {
-      sectionObserver.observe(section);
-      section.classList.remove("section--add");
-    });
+    window.addEventListener("scroll", fadeOnScroll);
+    fadeOnScroll();
   }, []);
 
   return (

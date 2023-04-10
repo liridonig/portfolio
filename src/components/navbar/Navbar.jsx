@@ -13,7 +13,7 @@ import { RiContactsFill } from "react-icons/ri";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <ul>
+      <ul className="standby">
         <li>
           <Link
             activeClass="active"
@@ -37,7 +37,7 @@ const Navbar = () => {
             duration={500}
           >
             <FaUser></FaUser>
-            <span className="navbar-icon">About Me</span>
+            <span className="navbar-icon">About</span>
           </Link>
         </li>
         <li>
@@ -63,7 +63,7 @@ const Navbar = () => {
             duration={500}
           >
             <FaShapes></FaShapes>
-            <span className="navbar-icon">My Skills</span>
+            <span className="navbar-icon">Skills</span>
           </Link>
         </li>
         <li>
@@ -76,7 +76,7 @@ const Navbar = () => {
             duration={500}
           >
             <FaGripVertical></FaGripVertical>
-            <span className="navbar-icon">Portfolio</span>
+            <span className="navbar-icon">Portfolios</span>
           </Link>
         </li>
         <li>

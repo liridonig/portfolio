@@ -51,15 +51,15 @@ const Contact = () => {
     <section id="contact">
       <div className="btn-header">
         <div className="btn-info">
-          <h4 className="btn-info-title">
+          <h4 className="btn-info-title standby">
             <RiContactsFill></RiContactsFill> Contact
           </h4>
-          <h3 className="btn-info-subtitle">
+          <h3 className="btn-info-subtitle standby">
             Let's Work <span>Together!</span>
           </h3>
         </div>
       </div>
-      <div className="contact-form">
+      <div className="contact-form standby">
         <form ref={form} onSubmit={handleSubmit}>
           <div className="contact-inputs">
             <label>Full name</label>

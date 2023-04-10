@@ -41,7 +41,7 @@
   color: #999;
 }
 
-.section--add {
+/* .fadeIn {
   animation: mymove 0.4s;
 }
 @keyframes mymove {
@@ -55,22 +55,18 @@
     visibility: visible;
     transform: translateY(0);
   }
-}
+} */
 
-.fadeIn {
-  animation: mymove 0.4s;
+.standby {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(30px);
+  transition: all 0.8s;
 }
-@keyframes mymove {
-  0% {
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
+.fadein {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
 }
 @media only screen and (max-width: 1100px) {
   .container {

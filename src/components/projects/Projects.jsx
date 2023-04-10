@@ -17,28 +17,32 @@ const Projects = () => {
       id: 1,
       title: "Hoobank",
       url: "https://hoobankks.netlify.app/",
-      image: "https://liridongashi.com/assets/hoobank.png",
-      icon: "FaGripVertical",
+      image: "https://liridongashi.com/assets/hbank.png",
       buildWith: [<FaReact />, <FaHtml5 />, <SiTailwindcss />],
     },
     {
       id: 2,
-      title: "Karrota",
-      url: "https://karrota.wtf/",
-      image: "https://liridongashi.com/assets/karrota.png",
-      icon: "FaGripVertical",
-      buildWith: [<FaWordpress />, <FaJs />, <FaHtml5 />, <FaCss3 />],
+      title: "Irevu Dashboard",
+      url: "https://liridongashi.com/irevu/",
+      image: "https://liridongashi.com/assets/irevud.png",
+      buildWith: [<FaJs />, <FaHtml5 />, <FaCss3 />, <FaBootstrap />],
     },
     {
       id: 3,
-      title: "Premium Bakery",
-      url: "https://liridongashi.com/premium-bakery",
-      image: "https://liridongashi.com/assets/prem.png",
-      icon: "FaGripVertical",
+      title: "Karrota",
+      url: "https://karrota.wtf/",
+      image: "https://liridongashi.com/assets/karrota.png",
       buildWith: [<FaWordpress />, <FaJs />, <FaHtml5 />, <FaCss3 />],
     },
     {
       id: 4,
+      title: "Premium Bakery",
+      url: "https://liridongashi.com/premium-bakery",
+      image: "https://liridongashi.com/assets/prem.png",
+      buildWith: [<FaWordpress />, <FaJs />, <FaHtml5 />, <FaCss3 />],
+    },
+    {
+      id: 5,
       title: "Convosio",
       url: "https://convosio.com/",
       image: "https://liridongashi.com/assets/convosio.png",
@@ -50,10 +54,10 @@ const Projects = () => {
     <section id="projects">
       <div className="btn-header">
         <div className="btn-info">
-          <h4 className="btn-info-title">
+          <h4 className="btn-info-title standby">
             <FaGripVertical></FaGripVertical> PORTFOLIO
           </h4>
-          <h3 className="btn-info-subtitle">
+          <h3 className="btn-info-subtitle standby">
             Featured <span>Projects</span>
           </h3>
         </div>
@@ -62,7 +66,7 @@ const Projects = () => {
         {projectsData.map((e) => {
           return (
             <a href={e.url} target="_blank" key={e.id}>
-              <div className="projects-div">
+              <div className="projects-div standby">
                 <div className="projects-image">
                   <img src={e.image} alt={e.title}></img>
                   <div className="build-with">

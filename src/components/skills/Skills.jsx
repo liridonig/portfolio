@@ -57,12 +57,12 @@ const Skills = () => {
   ];
   return (
     <section id="skills" className="section">
-      <div className="btn-header">
+      <div className="btn-header ">
         <div className="btn-info">
-          <h4 className="btn-info-title">
+          <h4 className="btn-info-title standby">
             <FaShapes></FaShapes> My Skills
           </h4>
-          <h3 className="btn-info-subtitle">
+          <h3 className="btn-info-subtitle standby">
             My <span>Advantages</span>
           </h3>
         </div>
@@ -70,7 +70,7 @@ const Skills = () => {
       <div className="skills">
         {skillsData.map((e) => {
           return (
-            <div className="skills-box" key={e.id}>
+            <div className="skills-box standby" key={e.id}>
               <div className="skills-box-icon">{e.icon}</div>
               <p>{e.title}</p>
             </div>

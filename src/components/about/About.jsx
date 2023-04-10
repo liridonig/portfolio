@@ -7,14 +7,14 @@ const About = () => {
     <section id="about" className="section">
       <div className="btn-header">
         <div className="btn-info">
-          <h4 className="btn-info-title">
+          <h4 className="btn-info-title standby">
             <FaUser></FaUser> ABOUT
           </h4>
-          <h3 className="btn-info-subtitle">
+          <h3 className="btn-info-subtitle standby">
             Every great design begin with an even
             <span> better story</span>
           </h3>
-          <p>
+          <p className="standby">
             Since beginning my journey as a freelance designer nearly 8 years
             ago, I've done remote work for agencies, consulted for startups, and
             collaborated with talented people to create digital products for

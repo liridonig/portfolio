@@ -32,10 +32,10 @@ const Resume = () => {
     <section id="resume" className="section">
       <div className="btn-header">
         <div className="btn-info">
-          <h4 className="btn-info-title">
+          <h4 className="btn-info-title standby">
             <FaBriefcase></FaBriefcase> RESUME
           </h4>
-          <h3 className="btn-info-subtitle">
+          <h3 className="btn-info-subtitle standby">
             Training & <span>Experience</span>
           </h3>
         </div>
@@ -44,11 +44,11 @@ const Resume = () => {
         {resumeData.map((e) => {
           return (
             <div className="resume-div" key={e.id}>
-              <p>
+              <p className="standby">
                 {e.dateStart} - {e.dateEnd}
               </p>
-              <h2>{e.title}</h2>
-              <h3>{e.source}</h3>
+              <h2 className="standby">{e.title}</h2>
+              <h3 className="standby">{e.source}</h3>
             </div>
           );
         })}
