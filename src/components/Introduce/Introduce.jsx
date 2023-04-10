@@ -12,9 +12,9 @@ const Introduce = () => {
           <h4 className="btn-info-title fadeIn">
             <FaHome></FaHome> INTRODUCE
           </h4>
-          <h3 className="fadeIn btn-info-subtitle btn-info-subtitle-intro">
+          <h1 className="fadeIn btn-info-subtitle btn-info-subtitle-intro">
             Hi, I’m <span>Liridon Gashi</span> a Front End Developer.
-          </h3>
+          </h1>
           <p>
             I'm a web developer with over three years of expertise in developing
             and maintaining websites and web applications.

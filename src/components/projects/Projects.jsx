@@ -9,6 +9,7 @@ import {
   FaReact,
   FaWordpress,
 } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
 const Projects = () => {
   const projectsData = [
@@ -18,7 +19,7 @@ const Projects = () => {
       url: "https://hoobankks.netlify.app/",
       image: "https://liridongashi.com/assets/hoobank.png",
       icon: "FaGripVertical",
-      buildWith: [<FaWordpress />, <FaJs />, <FaHtml5 />, <FaCss3 />],
+      buildWith: [<FaReact />, <FaHtml5 />, <SiTailwindcss />],
     },
     {
       id: 2,
@@ -30,6 +31,14 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "Premium Bakery",
+      url: "https://liridongashi.com/premium-bakery",
+      image: "https://liridongashi.com/assets/prem.png",
+      icon: "FaGripVertical",
+      buildWith: [<FaWordpress />, <FaJs />, <FaHtml5 />, <FaCss3 />],
+    },
+    {
+      id: 4,
       title: "Convosio",
       url: "https://convosio.com/",
       image: "https://liridongashi.com/assets/convosio.png",
