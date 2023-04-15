@@ -13,7 +13,7 @@ import { RiContactsFill } from "react-icons/ri";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <ul className="standby">
+      <ul>
         <li>
           <Link
             activeClass="active"
