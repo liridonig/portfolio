@@ -21,8 +21,6 @@ function App() {
         const boxTop = box.getBoundingClientRect().top;
         if (boxTop < trigerBottom) {
           box.classList.add("fadein");
-          // console.log(box);
-          console.count(box);
         } else {
           box.classList.remove("fadein");
         }
