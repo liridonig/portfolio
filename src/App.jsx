@@ -33,17 +33,17 @@ function App() {
 
   return (
     <div className="container">
-      <Navbar></Navbar>
+      <Navbar />
       <div className="container-app">
-        <Profile></Profile>
+        <Profile />
         <div className="container-app-right">
-          <Introduce></Introduce>
-          <About></About>
-          <Resume></Resume>
-          <Skills></Skills>
-          <Projects></Projects>
-          <Contact></Contact>
-          <Footer></Footer>
+          <Introduce />
+          <About />
+          <Resume />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
           {/* <Routes>
             <Route path="/Introduce" element={<Introduce></Introduce>}></Route>
             <Route path="/About" element={<About></About>}></Route>
