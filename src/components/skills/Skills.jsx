@@ -69,10 +69,11 @@ const Skills = () => {
       </div>
       <div className="skills">
         {skillsData.map((e) => {
+          const { id, icon, title } = e;
           return (
-            <div className="skills-box standby" key={e.id}>
-              <div className="skills-box-icon">{e.icon}</div>
-              <p>{e.title}</p>
+            <div className="skills-box standby" key={id}>
+              <div className="skills-box-icon">{icon}</div>
+              <p>{title}</p>
             </div>
           );
         })}

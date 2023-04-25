@@ -42,13 +42,14 @@ const Resume = () => {
       </div>
       <div className="resume">
         {resumeData.map((e) => {
+          const { id, title, source, dateStart, dateEnd } = e;
           return (
-            <div className="resume-div" key={e.id}>
+            <div className="resume-div" key={id}>
               <p className="standby">
-                {e.dateStart} - {e.dateEnd}
+                {dateStart} - {dateEnd}
               </p>
-              <h2 className="standby">{e.title}</h2>
-              <h3 className="standby">{e.source}</h3>
+              <h2 className="standby">{title}</h2>
+              <h3 className="standby">{source}</h3>
             </div>
           );
         })}

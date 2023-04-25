@@ -16,8 +16,7 @@ const Introduce = () => {
             Hi, I’m <span>Liridon Gashi</span> a Front End Developer.
           </h1>
           <p className="standby">
-            I'm a web developer with over three years of expertise in developing
-            and maintaining websites and web applications.
+            I'm a Front End Developer with over three years of experience.
           </p>
         </div>
       </div>

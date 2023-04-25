@@ -48,6 +48,19 @@ const Projects = () => {
       image: "https://liridongashi.com/assets/convosio.png",
       buildWith: [<FaJs />, <FaHtml5 />, <FaCss3 />, <FaBootstrap />],
     },
+    {
+      id: 6,
+      title: "Arismi i Shqipërisë",
+      url: "https://liridongashi.com/arsimish/",
+      image: "https://liridongashi.com/assets/arsimish.png",
+      buildWith: [
+        <FaWordpress />,
+        <FaJs />,
+        <FaHtml5 />,
+        <FaCss3 />,
+        <FaBootstrap />,
+      ],
+    },
   ];
 
   return (
@@ -64,18 +77,19 @@ const Projects = () => {
       </div>
       <div className="projects">
         {projectsData.map((e) => {
+          const { id, title, url, image, buildWith } = e;
           return (
-            <a href={e.url} target="_blank" key={e.id}>
+            <a href={url} target="_blank" key={id}>
               <div className="projects-div standby">
                 <div className="projects-image">
-                  <img src={e.image} alt={e.title}></img>
+                  <img src={image} alt={title}></img>
                   <div className="build-with">
-                    {e.buildWith.map((t, i) => {
+                    {buildWith.map((t, i) => {
                       return <span key={i}>{t}</span>;
                     })}
                   </div>
                 </div>
-                <h3>{e.title}</h3>
+                <h3>{title}</h3>
               </div>
             </a>
           );
