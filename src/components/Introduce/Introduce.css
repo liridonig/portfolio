@@ -27,6 +27,7 @@
 .projects-intro img {
   animation: rotate 4s infinite linear;
   cursor: pointer;
+  max-height: 130px;
 }
 .projects-intro a {
   position: relative;
