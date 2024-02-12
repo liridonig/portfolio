@@ -1,6 +1,5 @@
 import "./App.css";
 import { useEffect } from "react";
-// import { Routes, Route } from "react-router-dom";
 import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 import Navbar from "./components/navbar/Navbar";
@@ -44,13 +43,6 @@ function App() {
           <Projects />
           <Contact />
           <Footer />
-          {/* <Routes>
-            <Route path="/Introduce" element={<Introduce></Introduce>}></Route>
-            <Route path="/About" element={<About></About>}></Route>
-            <Route path="/Resume" element={<Resume></Resume>}></Route>
-            <Route path="/Skills" element={<Skills></Skills>}></Route>
-            <Route path="/Contact" element={<Contact></Contact>}></Route>
-          </Routes> */}
         </div>
       </div>
     </div>

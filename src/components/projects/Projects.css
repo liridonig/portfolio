@@ -58,4 +58,8 @@
   .projects {
     grid-template-columns: repeat(1, 100%);
   }
+  .navbar ul li a {
+    display: flex;
+    justify-content: center;
+  }
 }
