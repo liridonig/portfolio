@@ -27,7 +27,7 @@ const Projects = () => {
     {
       id: 2,
       title: "Irevu Dashboard",
-      url: "https://liridongashi.com/irevu/",
+      url: "https://irevvu.netlify.app",
       image: Irevu,
       buildWith: [<FaJs />, <FaHtml5 />, <FaCss3 />, <FaBootstrap />],
     },

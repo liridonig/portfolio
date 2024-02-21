@@ -5,19 +5,25 @@ import "./Resume.css";
 const Resume = () => {
   const resumeData = [
     {
+      id: 0,
+      title: "Front End Developer & Wordpress Developer",
+      source: "Triokos",
+      dateStart: "01/07/2023",
+      dateEnd: "Current",
+    },
+    {
       id: 1,
-      title: "Wordpress Developer",
+      title: "Front End Developer & Wordpress Developer",
       source: "Karrota",
       dateStart: "01/10/2019",
       dateEnd: `30/09/2022`,
     },
     {
       id: 2,
-      title:
-        "Certificate of Completion for React Developer(Redux, Hooks, GraphQL)",
+      title: "CERTIFICATE  FOR REACT DEVELOPER(REDUX, HOOKS, REACT QUERY)",
       source: "Udemy",
       dateStart: "01/12/2022",
-      dateEnd: "15/02/2023",
+      dateEnd: "05/02/2024",
     },
     {
       id: 3,

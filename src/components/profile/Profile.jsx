@@ -8,7 +8,7 @@ import {
   FaInstagram,
   FaBriefcase,
 } from "react-icons/fa";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/LIRIDON-GASHI-CV.pdf";
 
 const Profile = () => {
   return (
