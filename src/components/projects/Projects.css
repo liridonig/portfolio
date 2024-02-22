@@ -6,6 +6,7 @@
 .projects-div {
   transition: all 0.4s;
   margin-bottom: 30px;
+  padding: 0 10px;
 }
 .projects-div:hover {
   transform: translateY(-10px);
@@ -61,5 +62,8 @@
   .navbar ul li a {
     display: flex;
     justify-content: center;
+  }
+  .projects-div {
+    padding: 0 5px;
   }
 }

@@ -9,20 +9,19 @@ import {
   FaReact,
   FaWordpress,
 } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import HBank from "../../assets/hbank.png";
 import Irevu from "../../assets/irevud.png";
 import Karrota from "../../assets/karrota.png";
 import Convosio from "../../assets/convosio.png";
+import Idle from "../../assets/idle.jpg";
 
 const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      title: "Hoobank",
-      url: "https://hoobankks.netlify.app/",
-      image: HBank,
-      buildWith: [<FaReact />, <FaHtml5 />, <SiTailwindcss />],
+      title: "Innenausbau",
+      url: "https://idlinnenausbau.ch/",
+      image: Idle,
+      buildWith: [<FaWordpress />, <FaHtml5 />, <FaBootstrap />],
     },
     {
       id: 2,
